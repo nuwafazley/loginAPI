@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/[controller]")]//
 public class AuthController : ControllerBase
 {
     private readonly UserService _userService;
